@@ -35,7 +35,7 @@ Here are some demo images showcasing the Laravel Query Optimizer package:
 1. **Install via Composer**:
 
    ```bash
-   composer require vendor/query-optimizer
+   composer require oussemakh1/laravel-query-optimizer
    ```
 2. **Publish Configuration**:
 
