@@ -1,0 +1,36 @@
+{
+    "name": "vendor/laravel-query-optimizer",
+    "description": "Analyzes Eloquent queries and suggests optimizations with advanced metrics and visualizations",
+    "version": "dev-main",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\QueryOptimizer\\": "src/",
+            "Vendor\\QueryOptimizer\\Tests\\": "tests/"
+
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": ["Vendor\\QueryOptimizer\\QueryOptimizerServiceProvider"],
+          "aliases": { "QueryOptimizer": "Vendor\\QueryOptimizer\\Facades\\QueryOptimizer" }
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+        "doctrine/dbal": "^2.13|^3.0",
+        "google-gemini-php/client": "^2.3",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "orchestra/testbench": "^7.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
