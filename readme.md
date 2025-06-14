@@ -8,8 +8,8 @@ Here are some demo images showcasing the Laravel Query Optimizer package:
 
 <table>
   <tr>
-    <td><img src="./assets/14.png" width="250" /></td>
-    <td><img src="./assets/15.png" width="250" /></td>
+    <td><img src="./assets/14.png" width="450" /></td>
+    <td><img src="./assets/15.png" width="450" /></td>
   </tr>
 </table>
 
