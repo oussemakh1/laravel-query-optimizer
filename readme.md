@@ -6,8 +6,8 @@ The **Laravel Query Optimizer** is a package designed to monitor, analyze, and o
 
 Here are some demo images showcasing the Laravel Query Optimizer package:
 
-![Demo Image 14](assets/14.png)
-![Demo Image 15](assets/15.png)
+![Demo Image 14](./assets/14.png) <br><br>
+![Demo Image 15](./assets/15.png)
 
 
 ### Features
