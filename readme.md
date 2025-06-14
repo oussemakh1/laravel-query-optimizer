@@ -2,6 +2,14 @@
 
 The **Laravel Query Optimizer** is a package designed to monitor, analyze, and optimize database query performance in Laravel applications. It provides tools to log query execution details, analyze performance metrics, and suggest improvements through a user-friendly dashboard and API endpoints. The package leverages Doctrine DBAL for advanced query analysis and integrates seamlessly with Laravel's service provider architecture.
 
+### Demos
+
+Here are some demo images showcasing the Laravel Query Optimizer package:
+
+![Demo Image 14](assets/14.png)
+![Demo Image 15](assets/15.png)
+
+
 ### Features
 
 * **Query Logging**: Records SQL queries, their bindings, execution time, and timestamps.

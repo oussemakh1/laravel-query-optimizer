@@ -1,20 +1,29 @@
 {
-    "name": "vendor/laravel-query-optimizer",
-    "description": "Analyzes Eloquent queries and suggests optimizations with advanced metrics and visualizations",
+    "name": "oussemakh1/laravel-query-optimizer",
+    "description": "Enhance Laravel query performance with logging, analysis, and AI-powered insights.",
     "version": "dev-main",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Oussema Khlifi",
+            "email": "khoussemaa@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Vendor\\QueryOptimizer\\": "src/",
             "Vendor\\QueryOptimizer\\Tests\\": "tests/"
-
         }
     },
     "extra": {
         "laravel": {
-          "providers": ["Vendor\\QueryOptimizer\\QueryOptimizerServiceProvider"],
-          "aliases": { "QueryOptimizer": "Vendor\\QueryOptimizer\\Facades\\QueryOptimizer" }
+            "providers": [
+                "Vendor\\QueryOptimizer\\QueryOptimizerServiceProvider"
+            ],
+            "aliases": {
+                "QueryOptimizer": "Vendor\\QueryOptimizer\\Facades\\QueryOptimizer"
+            }
         }
     },
     "require": {
@@ -32,5 +41,7 @@
         "allow-plugins": {
             "php-http/discovery": true
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
